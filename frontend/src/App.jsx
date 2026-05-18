@@ -45,7 +45,7 @@ function App() {
           onChange={(e) => setName(e.target.value)}
         />
         <button
-          className="bg-yellow-500 hover:bg-yellow-600 px-6 py-3 rounded-md font-bold text-slate-900 transition-colors"
+          className="bg-yellow-200 hover:bg-yellow-600 px-6 py-3 rounded-md font-bold text-slate-900 transition-colors"
           onClick={searchPokemon}
         >
           Buscar
